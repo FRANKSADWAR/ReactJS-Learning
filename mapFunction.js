@@ -1,15 +1,6 @@
 import React from "react";
 import ReactDOM from "react-dom";
 
-const people = ['Rowe','Prevost','Gare'];
-const peopleLis = people.map((person, i) =>
-    <li key={'person_' + i}>{person}</li>
-);
-var list = <ul>{peopleLis}</ul>;
-ReactDOM.render(list, document.getElementById('app'));
-
-
-
 import { animals } from "./animals";
 import React from "react";
 import ReactDOM from "react-dom";
